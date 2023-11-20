@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/someTask/'
+        ? '/zkhomer.github.io/'
         : '/'
 }
