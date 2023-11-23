@@ -1,3 +1,4 @@
+
 # OpenWeatherMap API Usage Documentation
 
 ## Overview
@@ -11,9 +12,6 @@ No user authentication is required to use the OpenWeatherMap API. However, for c
 ### Get Weather Conditions by Location Coordinates
 GET /weather?lat={lat}&lon={lon}&appid={API_KEY}
 
-markdown
-Copy code
-
 Parameters:
 
 - `lat` - latitude of the location
@@ -24,9 +22,6 @@ Example:
 ````
     GET /weather?lat=35&lon=139&appid=YOUR_API_KEY
 ````
-
-css
-Copy code
 
 Response:
 ```json
